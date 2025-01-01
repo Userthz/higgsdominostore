@@ -1,0 +1,507 @@
+
+        .hdhjbitm {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    background: #ffebc6fa;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.itemnanjg select {
+  width: 80%;
+  margin-left: 20px;
+border: 2px solid #996034; 
+outline: none;
+cursor: pointer;
+background: #d5b184;
+color: #996034;
+text-align: center;
+padding: 10px 15px; 
+font-size: 18px; 
+border-radius: 10px; 
+font-weight: 800;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+transition:
+}
+.itembabi select {
+  width: 80%;
+  text-align: center;
+  margin-left: 20px;
+border: 4px solid #996034; 
+outline: none;
+cursor: pointer;
+background: #d5b184;
+color: #996034;
+padding: 10x 15px; 
+font-size: 28px; 
+border-radius: 10px; 
+font-weight: 800;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+transition:
+}
+        .popidhjb {
+            background: #0000007a;
+            position: fixed;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 1;
+        }
+
+        .contidhjb {
+            top: 50%;
+            right: 50%;
+            margin: 50% auto;
+            background: url(https://sdomino.boxiangyx.com/images/website/webShop/exchange_box.png) no-repeat center;
+            background-size: 90% 90%;
+            width: 80%;
+        }
+
+        .closebtnpopid {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        .closebtnhjb {
+            background: url() no-repeat center;
+            background-size: 100% 100%;
+            width: 25px;
+            height: 25px;
+        }
+
+        .ucapanloginidhjb {
+            color: #ffb82b;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .buttonloginhjb {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 0px 30px 20px;
+        }
+
+        .loginfbhjbdong {
+            font-size: 23px;
+            background: #4867aa;
+            color: #fff;
+            line-height: 40px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #79bfbf;
+        }
+        .loginpghjbdong {
+            font-size: 23px;
+            background: #118b8b;
+            color: #fff;
+            line-height: 40px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #79bfbf;
+        }
+        
+
+.screenshot-container {
+    text-align: center; 
+    margin-top: 6px;   
+}
+
+
+.upload-label {
+    font-size: 18px;
+    background-color: #d5b184; 
+    color: #363636;              
+    padding: 10px 20px;         
+    border-radius: 5px;         
+    cursor: pointer;            
+    transition: background-color 0.3s ease; 
+}
+
+.upload-label1 {
+    font-size: 14px;
+    background-color: #d5b184; 
+    color: #000000;              
+    padding: 0.1px 2px;         
+    border-radius: 5px;         
+    cursor: pointer;            
+    transition: background-color 0.3s ease; 
+}
+
+
+.upload-label:hover {
+    background-color: #d5b184;
+}
+
+
+.file-input {
+    display: none;
+}
+
+
+.file-input:focus + .upload-label {
+    background-color: #d5b184; 
+}
+
+
+
+        .popup-ariandi {
+            display: none;
+            background: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999999;
+        }
+        
+
+        .close-hjb-facebook {
+            background: #000;
+            width: 20px;
+            height: 20px;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            border: 1.5px solid #fff;
+            position: absolute;
+            top: -8px;
+            right: -10px;
+            display: block;
+        }
+
+        .close-hjb-facebook i {
+            color: #fff;
+            padding-top: 1px;
+        }
+
+        .container-box-fb {
+            background: #ECEFF6;
+            max-width: 330px;
+            height: auto;
+            position: relative;
+            margin: 50px auto;
+            margin-top: 1.9%;
+            text-align: center;
+            font-family: system-ui;
+            color: #000;
+            border-radius: 10px;
+        }
+
+        .atasan-fb {
+            background: #3b5998;
+            width: 100%;
+            height: auto;
+            padding: 8px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .atasan-fb img {
+            width: 115px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .isi-facebook {
+            width: 300px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .isi-facebook .kaget {
+            display: none;
+            left: -15px;
+            position: relative;
+            width: 330px;
+            padding: 5px;
+            background: red;
+            color: #fff;
+            font-size: 13px;
+            font-family: system-ui;
+        }
+
+        .isi-facebook img {
+            width: 60px;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 12px;
+            display: block;
+        }
+
+        .txt-ucapan-fb {
+            width: 270px;
+            height: auto;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 17px;
+            padding: 8px;
+            color: #90949c;
+            font-size: 16px;
+            font-family: system-ui;
+            text-align: center;
+            display: block;
+        }
+
+        .form-login-fb input[type="text"],
+        .form-login-fb input[type="password"] {
+            width: 100%;
+            height: auto;
+            padding: 12px;
+            color: #000;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Lato', sans-serif;
+            border: 1px solid #bdbebf;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .form-login-fb input[type="text"] {
+            margin: 0;
+            padding-bottom: 13px;
+            border-bottom: none;
+            border-radius: 4px 4px 0 0;
+            box-shadow: 0 -1px 0 #E0E0E0 inset, 0 0px 0px rgba(0, 0, 0, 0.23) inset;
+        }
+
+        .form-login-fb input[type="password"] {
+            margin: 0;
+            border-top: none;
+            border-radius: 0 0 4px 4px;
+            box-shadow: 0 -0px 0 rgba(0, 0, 0, 0.23) inset, 0 0px 0px rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-login-fb {
+            background: #1778f2;
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            color: #fff;
+            font-size: 14px;
+            font-family: system-ui;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
+            border: 1px solid #3578e5;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+            outline: none;
+            display: block;
+        }
+
+        .txt-buat-akun {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            color: #3b5998;
+            font-size: 13.5px;
+            font-family: system-ui;
+            text-align: center;
+        }
+
+        .txt-tidak-sekarang {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            color: #3b5998;
+            font-size: 13.5px;
+            font-family: Roboto;
+            text-align: center;
+        }
+
+        .txt-lupa-password {
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+            padding: 5px;
+            color: #7596c8;
+            font-size: 13.5px;
+            font-family: system-ui;
+            text-align: center;
+        }
+
+        .isi-bahasa {
+            width: 100%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .nama-bahasa {
+            width: 40%;
+            height: auto;
+            margin: 5px;
+            margin-bottom: 0px;
+            color: #3b5998;
+            font-size: 12px;
+            font-family: system-ui;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .nama-bahasa i {
+            width: 23px;
+            padding: 4px;
+            color: #90949c;
+            border: 1px solid #3b5998;
+            border-radius: 3px;
+        }
+
+        .bahasa-aktif {
+            color: #90949c;
+            font-weight: bold;
+        }
+
+        .textbawah {
+            width: 40%;
+            height: auto;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #90949c;
+            font-size: 12px;
+            font-family: system-ui;
+            text-align: center;
+            display: block;
+        }
+        .duaxhjbgmb img {
+        width: 100px;
+        align-items: center;
+
+}
+
+ #btn-tutorial {
+      background-color: transparent; 
+      color: rgb(0, 0, 0); 
+      border: 2px solid #329b7b; 
+      border-radius: 10px; 
+      padding: 10px 20px; 
+      font-size: 16px; 
+      font-weight: bold; 
+      margin-bottom: 15px;
+      cursor: pointer; 
+      transition: all 0.3s ease; 
+      text-decoration: none; 
+      display: inline-block; 
+    }
+
+    
+    #btn-tutorial:hover {
+      background-color: #329b7b; 
+      color: white; 
+      border-color: #329b7b; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+
+        #notifications-container {
+            position: fixed;
+            color: #ffffff;
+            top  : 5px;
+            right : -10;
+            z-index:1000;
+        }
+
+        .notification {
+            
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 10px;
+            background: #118b8b;
+            border: 2px solid #ccc;
+            border-radius: 18px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            
+
+        }
+
+        .notification-icon {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .notification-content {
+            flex: 1;
+        }
+
+        .notification-title {
+            font-weight: bold;
+        }
+
+        .notification-message {
+            margin-top: 5px;
+        }
+
+        body {
+            background-image: url(https://i.ibb.co.com/dDNbbQ1/8w3ps3mk.png);
+            background-repeat:round;
+        }
+
+        .btnmnhjb-activehjbmn {
+            align-items: center;
+            color: #a76a1f;;
+            font-style: bold;
+            justify-content: center;
+            background-color: #ffebc6fa;
+            padding: 10px;
+            text-shadow: 2px 2px black;
+            margin: 10px;
+            border-radius: 20px;
+            font-family: Arial;
+        }
+
+        .okps {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: bold;
+            font-size: medium;
+            color: #a76a1f;
+            text-shadow: 1px 0.6px black;
+        }
+
+        .ihjbopt {
+                width: 100%; 
+                max-width: 500px; 
+                margin: 0 auto; 
+                padding: 20px; 
+                color: rgb(126, 72, 2);
+                border-radius: 10px; 
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                cursor: auto;
+        
+        }
+
+        #myinput {
+            color: rgb(0, 0, 0);
+            background-color: rgba(126, 72, 2, 0.5);
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .ul {
+            background-color: #996034;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: white;
+            padding: 2px;
+            margin: 2px;
+            height: 200px;
+            border-radius: 20px;
+        }
